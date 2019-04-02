@@ -161,7 +161,6 @@
     	    return 1;
         }
         else{
-	nodeTotal = 0;
 	  nodeTotal = (int)Math.pow(branchingFactor, (height-1)) + nnaryTreeSize(branchingFactor, height-1);
       return nodeTotal;
 	}
