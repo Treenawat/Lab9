@@ -70,7 +70,6 @@
      */
     public int fibonacci(int n)
     {
-        //TODO
 	if(n==1||n==2){
 		return 1;
 	}
@@ -108,7 +107,9 @@
         private int value;
     
         public Tree(int value)
- 
+        {
+            this.value = value;
+        }
     
         public int getValue()
         {
